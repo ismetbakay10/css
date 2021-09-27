@@ -1,0 +1,54 @@
+#container {
+  width: 640px;
+  margin: 35px auto;
+}
+/*Seklin bozulmamasi icin bayragin tamami bir container icine alinmistir*/
+
+.kirmizi-satir {
+  width: 640px;
+  height: 120px;
+  background-color: red;
+  float: left;
+}
+.kirmizi-kutu-dik {
+  width: 120px;
+  height: 140px;
+  background-color: red;
+  float: left;
+}
+
+.kirmizi-kutu-kare1 {
+  width: 140px;
+  height: 140px;
+  background-color: red;
+  float: left;
+}
+
+.kirmizi-kutu-kare2 {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  float: left;
+}
+
+.beyaz-kutu-a {
+  width: 120px;
+  height: 140px;
+  background-color: white;
+  float: left;
+}
+
+.beyaz-kutu-b {
+  width: 140px;
+  height: 120px;
+  background-color: white;
+  float: left;
+}
+
+.beyaz-kutu-kare {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  float: left;
+}
+/*Bayrak karelere bolunmus ve her kutucuk icin bir class atanmistir*/
