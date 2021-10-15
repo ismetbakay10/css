@@ -1,0 +1,90 @@
+#main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff2cc;
+}
+
+/* The common properties of the three containers */
+.container {
+  height: 300px;
+  width: 400px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The first container */
+.container-1 {
+  background-color: #62306d;
+}
+
+/* The first and the last shape into the first container */
+.shape-1-a {
+  width: 100px;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid #f7ec7d;
+  border-radius: 50px;
+}
+
+/* The shape in the middle into the first container */
+.shape-1-b {
+  width: 100px;
+  border-top: 100px solid #f7ec7d;
+  border-bottom: 100px solid transparent;
+  border-radius: 50px;
+}
+
+/* The second container */
+.container-2 {
+  background-color: #e3516e;
+}
+
+/* The shape into the second container */
+.shape-2 {
+  border-right: 100px solid transparent;
+  border-top: 100px solid #fade8b;
+  border-left: 100px solid #51b5a9;
+  border-bottom: 100px solid #f7f3d7;
+  border-radius: 100px;
+  transform: rotate(45deg);
+}
+
+/* The third container */
+.container-3 {
+  background-color: #191210;
+}
+
+/* The common properties of the shapes into the third containers */
+.shape-3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  transform: rotate(45deg);
+}
+
+/* The first part into the third container */
+.shape-3-a {
+  border-right: 20px solid #eca03d;
+  border-top: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid #eca03d;
+}
+
+/* The shape in the middle into the third container */
+.shape-3-b {
+  background-color: #84271c;
+  border: 20px solid #191210;
+  box-shadow: 0px 0px 0px 20px #eca03d;
+}
+
+/* The third part into the third container */
+.shape-3-c {
+  border-right: 20px solid transparent;
+  border-top: 20px solid #eca03d;
+  border-left: 20px solid #eca03d;
+  border-bottom: 20px solid transparent;
+}
