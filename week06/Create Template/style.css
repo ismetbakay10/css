@@ -1,0 +1,289 @@
+#container {
+  background-color: rgb(125, 177, 255);
+  padding: 10px;
+}
+/*First line containers*/
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div1 {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  float: left;
+}
+.div1-1 {
+  width: 350px;
+  height: 11px;
+  background-color: rgb(125, 177, 255);
+}
+.div1-2 {
+  width: 350px;
+  height: 7px;
+  background-color: rgb(125, 177, 255);
+  margin-top: 6px;
+}
+.div1-3 {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(125, 177, 255);
+  margin-top: 13px;
+}
+.div2 {
+  width: 450px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  float: left;
+}
+.div2-1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(125, 177, 255);
+}
+.div2-2 {
+  width: 5px;
+  height: 2px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid white;
+  margin-top: 9px;
+  margin-left: 12px;
+}
+.div3 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.div3-1 {
+  width: 200px;
+  height: 11px;
+  background-color: white;
+  margin: 7px;
+}
+/*Second line containers*/
+.section2 {
+  display: flex;
+  margin-top: -55px;
+}
+.div4 {
+  margin: 10px;
+}
+.div4-1 {
+  width: 190px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div4-2 {
+  width: 80px;
+  height: 2px;
+  background: rgb(125, 177, 255);
+  margin-bottom: 5px;
+}
+.div4-3 {
+  width: 170px;
+  height: 270px;
+  background-color: rgb(125, 177, 255);
+  margin: 5px;
+}
+.div4-4 {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 2px rgb(125, 177, 255) solid;
+  border-radius: 25px;
+  margin: 5px;
+}
+.div5 {
+  display: flex;
+}
+.div5-1 {
+  width: 500px;
+  height: 352px;
+  background: white;
+  border: 2px rgb(125, 177, 255) solid;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div5-2 {
+  width: 130px;
+  height: 80px;
+  background: white;
+  display: flex;
+}
+.div5-3 {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid rgb(125, 177, 255);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  align-self: flex-end;
+}
+.div5-4 {
+  width: 0;
+  height: 0;
+  border-bottom: 60px solid rgb(125, 177, 255);
+  border-left: 45px solid transparent;
+  border-right: 55px solid transparent;
+  align-self: flex-end;
+  margin-left: -28px;
+}
+.div5-5 {
+  width: 30px;
+  height: 30px;
+  background: rgb(125, 177, 255);
+  border-radius: 25px;
+  position: absolute;
+}
+.div5-6 {
+  width: 7px;
+  height: 7px;
+  background: rgb(125, 177, 255);
+  border-radius: 25px;
+  position: absolute;
+  margin-top: 300px;
+  box-shadow: 15px 0 0 rgb(125, 177, 255), 30px 0 0 rgb(125, 177, 255);
+}
+.div6 {
+  width: 50px;
+  height: 30px;
+  background: white;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-top: 5px;
+  float: left;
+}
+.div6-1 {
+  width: 26px;
+  height: 26px;
+  background: white;
+  border: 2px rgb(125, 177, 255) solid;
+  border-radius: 25px;
+}
+.div7 {
+  width: 50px;
+  height: 30px;
+  background: white;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: end;
+}
+.div7-1 {
+  width: 26px;
+  height: 26px;
+  background: rgb(125, 177, 255);
+  border: 2px rgb(125, 177, 255) solid;
+  border-radius: 25px;
+}
+.div8 {
+  display: flex;
+  position: absolute;
+  margin-left: 725px;
+  margin-top: 50px;
+}
+.div8-1 {
+  width: 365px;
+  height: 300px;
+  background: white;
+  border: 2px rgb(125, 177, 255) solid;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div8-2 {
+  width: 130px;
+  height: 80px;
+  background: white;
+  display: flex;
+}
+.div8-3 {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid rgb(125, 177, 255);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  align-self: flex-end;
+}
+.div8-4 {
+  width: 0;
+  height: 0;
+  border-bottom: 60px solid rgb(125, 177, 255);
+  border-left: 45px solid transparent;
+  border-right: 55px solid transparent;
+  align-self: flex-end;
+  margin-left: -28px;
+}
+.div8-5 {
+  width: 30px;
+  height: 30px;
+  background: rgb(125, 177, 255);
+  border-radius: 25px;
+  position: absolute;
+}
+/*Third line containers*/
+.section3 {
+  display: flex;
+}
+.div9 {
+  width: 703px;
+  height: 30px;
+  background-color: rgb(125, 177, 255);
+  border: 2px white solid;
+  margin-left: 10px;
+}
+.div9-1 {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  margin-left: 555px;
+}
+.div10 {
+  width: 365px;
+  height: 30px;
+  background-color: rgb(125, 177, 255);
+  margin-left: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.div10-1 {
+  width: 30px;
+  height: 30px;
+}
+.div10-2 > img {
+  width: 30px;
+  height: 30px;
+}
+.div10-3 > img {
+  width: 30px;
+  height: 30px;
+}
+.div10-4 > img {
+  width: 30px;
+  height: 30px;
+}
+.div10-5 > img {
+  width: 30px;
+  height: 30px;
+}
